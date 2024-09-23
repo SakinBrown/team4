@@ -1,0 +1,22 @@
+print('Hello! My name is ChatBot!')
+name = input('\nI am your personal bot, what is your name? ')
+print(f'\n Nice to meet you {name}. How can I help you today?')
+print('You can ask about, the weather, history, games, sports, book, movie and many more!')
+
+prompt = input('\nWhat would you like to know? (1-4) ')
+if prompt == '1':
+  print('The weather is sunny today!')
+  print('\n Goodbye. See you tomorrow! ;)')
+
+elif prompt == '2':
+  print('The history of the U.S.A. is that it was founded in 1776')
+  print('\n Goodbye. See you tomorrow! ;)')
+elif prompt == '3':
+  print('The games that I know are Minecraft, Roblox, and Fortnite')
+  print('\n Goodbye. See you tomorrow! ;)')
+  
+elif prompt == '4':
+  print('Okay, have a nice day!')
+  gameLoop = False
+
+gameLoop = True
